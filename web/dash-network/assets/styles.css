@@ -1,0 +1,313 @@
+.my-legend {
+    border: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    border-radius: 15px;
+    padding: 0.5em 0.5em 0.2em 0.5em;
+    margin: 0 20px 10px 20px;
+}
+.my-legend .legend-title {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 90%;
+}
+.my-legend .legend-scale ul {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    float: left;
+    list-style: none;
+    text-indent: -24px;
+    margin-left: 24px;
+}
+.my-legend .legend-scale ul li {
+    font-size: 80%;
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 2px;
+}
+.my-legend .legend-scale ul li.nd {
+    line-height: 12px;
+}
+.my-legend .legend-scale ul li.rw {
+    line-height: 20px;
+}
+.my-legend .legend-scale ul li.rw.first {
+    margin-top: 5px;
+}
+.my-legend .legend-scale ul li.rw.last {
+    margin-top: 4px;
+    line-height: 12px;
+}
+.my-legend ul.legend-labels li span.node {
+    display: inline-block;
+    /*float: left;*/
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+    margin-left: 0;
+    border: 1px solid #666;
+    border-radius: 50%;
+    margin-top: 2px;
+    vertical-align: -0.35em;
+}
+.my-legend .legend-source {
+    font-size: 70%;
+    color: #999;
+    clear: both;
+}
+.my-legend a {
+    color: #777;
+}
+.arrow::after {
+    content: '\2192';
+    /* little make up */
+    font-size: 1.9em;
+    /* whatever needed*/
+    padding: 0 0;
+    /* whatever needed*/
+    vertical-align: -0.1em;
+    /* whatever needed*/
+}
+
+.tooltipster-base {
+    background: #eee;
+    border: 1px;
+    border-style: solid;
+    border-color: darkgrey;
+    color: #444;
+    margin-left: 10px;
+    visibility: hidden;
+}
+
+:root {
+    --standalone: #a0a0a0; /*#cecece*/
+    
+    --show-color-A: #ff00ff;
+    --container-color-A: #ff4533;
+    --mix-color-A: #bd7aff;
+    --piece-color-A: #5c89ff;
+    --dance-color-A: #00b7da;
+    --standalone-color-A: var(--standalone);
+    
+    --show-color-B: #ff0066;
+    --container-color-B: #cc268c;
+    --mix-color-B: #994db3;
+    --piece-color-B: #6673d9;
+    --dance-color-B: #3399ff;
+    --standalone-color-B: var(--standalone);
+    
+    --show-color-C: #ff3333;
+    --container-color-C: #ff33cc;
+    --mix-color-C: #bb33ff;
+    --piece-color-C: #3399ff;
+    --dance-color-C: #33ffff;
+    --standalone-color-C: var(--standalone);
+    
+    --show-color-D: #ff9933;
+    --container-color-D: #ff3333;
+    --mix-color-D: #bb33ff;
+    --piece-color-D: #3399ff;
+    --dance-color-D: #33ffff;
+    --standalone-color-D: var(--standalone);
+    
+    --show-color-X: #ff0000;
+    --container-color-X: #ff00bf;
+    --mix-color-X: #8000ff;
+    --piece-color-X: #0040ff;
+    --dance-color-X: #00ffff;
+    --standalone-color-X: var(--standalone);
+}
+
+.my-legend .node.show.schemeA {
+    background: var(--show-color-A);
+}
+.my-legend .node.cont.schemeA {
+    background: var(--container-color-A);
+}
+.my-legend .node.mix.schemeA {
+    background: var(--mix-color-A);
+}
+.my-legend .node.piece.schemeA {
+    background: var(--piece-color-A);
+}
+.my-legend .node.dance.schemeA {
+    background: var(--dance-color-A);
+}
+.my-legend .arrow.dance.schemeA {
+    color: var(--dance-color-A);
+}
+.my-legend .arrow.piece.schemeA {
+    color: var(--piece-color-A);
+}
+.my-legend .arrow.mix.schemeA {
+    color: var(--mix-color-A);
+}
+.my-legend .arrow.standalone.schemeA {
+    color: var(--standalone-color-A);
+}
+
+.my-legend .node.show.schemeB {
+    background: var(--show-color-B);
+}
+.my-legend .node.cont.schemeB {
+    background: var(--container-color-B);
+}
+.my-legend .node.mix.schemeB {
+    background: var(--mix-color-B);
+}
+.my-legend .node.piece.schemeB {
+    background: var(--piece-color-B);
+}
+.my-legend .node.dance.schemeB {
+    background: var(--dance-color-B);
+}
+.my-legend .arrow.dance.schemeB {
+    color: var(--dance-color-B);
+}
+.my-legend .arrow.piece.schemeB {
+    color: var(--piece-color-B);
+}
+.my-legend .arrow.mix.schemeB {
+    color: var(--mix-color-B);
+}
+.my-legend .arrow.standalone.schemeB {
+    color: var(--standalone-color-B);
+}
+
+.my-legend .node.show.schemeC {
+    background: var(--show-color-C);
+}
+.my-legend .node.cont.schemeC {
+    background: var(--container-color-C);
+}
+.my-legend .node.mix.schemeC {
+    background: var(--mix-color-C);
+}
+.my-legend .node.piece.schemeC {
+    background: var(--piece-color-C);
+}
+.my-legend .node.dance.schemeC {
+    background: var(--dance-color-C);
+}
+.my-legend .arrow.dance.schemeC {
+    color: var(--dance-color-C);
+}
+.my-legend .arrow.piece.schemeC {
+    color: var(--piece-color-C);
+}
+.my-legend .arrow.mix.schemeC {
+    color: var(--mix-color-C);
+}
+.my-legend .arrow.standalone.schemeC {
+    color: var(--standalone-color-C);
+}
+
+.my-legend .node.show.schemeD {
+    background: var(--show-color-D);
+}
+.my-legend .node.cont.schemeD {
+    background: var(--container-color-D);
+}
+.my-legend .node.mix.schemeD {
+    background: var(--mix-color-D);
+}
+.my-legend .node.piece.schemeD {
+    background: var(--piece-color-D);
+}
+.my-legend .node.dance.schemeD {
+    background: var(--dance-color-D);
+}
+.my-legend .arrow.dance.schemeD {
+    color: var(--dance-color-D);
+}
+.my-legend .arrow.piece.schemeD {
+    color: var(--piece-color-D);
+}
+.my-legend .arrow.mix.schemeD {
+    color: var(--mix-color-D);
+}
+.my-legend .arrow.cont.schemeD {
+    color: var(--container-color-D);
+}
+.my-legend .arrow.standalone.schemeD {
+    color: var(--standalone-color-D);
+}
+
+.faded-node {
+    fill-opacity: 0.1;
+    stroke-opacity: 0.1;
+}
+.shown-node {
+    fill-opacity: 1;
+    stroke-opacity: 1;
+}
+.faded-path {
+    stroke-opacity: 0.1;
+}
+.shown-path {
+    stroke-opacity: 0.6;
+}
+.faded-marker {
+    fill-opacity: 0.1;
+}
+.shown-marker {
+    fill-opacity: 0.6;
+}
+
+.graph-component {
+    -webkit-transition: fill-opacity 0.5s ease, stroke-opacity 0.5s ease;
+    -moz-transition: fill-opacity 0.5s ease, stroke-opacity 0.5s ease;
+    -o-transition: fill-opacity 0.5s ease, stroke-opacity 0.5s ease;
+    transition: fill-opacity 0.5s ease, stroke-opacity 0.5s ease;
+}
+
+.graph-component2 {
+    -webkit-transition: fill-opacity 1s ease, stroke-opacity 1s ease;
+    -moz-transition: fill-opacity 1s ease, stroke-opacity 1s ease;
+    -o-transition: fill-opacity 1s ease, stroke-opacity 1s ease;
+    transition: fill-opacity 1s ease, stroke-opacity 1s ease;
+}
+
+.control {
+    position: absolute;
+    height: 20px;
+    width: 70px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 5px;
+    left: 316px;
+    cursor: grab;
+}
+
+.control-elem {
+  background-position: 0 0; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  outline: none;
+  position: absolute;
+  opacity: 0.8;
+}
+
+#reload.control-elem {
+  background-image: url('i-reload.svg');
+  left: 10px;
+}
+
+#play.control-elem {
+  background-image: url('i-play.svg');
+  left: 32px;
+}
+
+#pause.control-elem {
+  background-image: url('i-pause.svg');
+  left: 50px;
+}
+
+.control-elem.disabled {
+    opacity: 0.2;
+    cursor: auto;
+}

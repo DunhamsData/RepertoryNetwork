@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-06-09">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="4" title="style" type="string" />
+      <attribute id="5" title="Weight" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="style" type="string" />
+      <attribute id="1" title="aka" type="string" />
+      <attribute id="2" title="size" type="long" />
+      <attribute id="3" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Americana" label="Americana">
+        <attvalues>
+          <attvalue for="0" value="Standalone" />
+          <attvalue for="1" value="America" />
+          <attvalue for="2" value="52" />
+          <attvalue for="3" value="Container" />
+        </attvalues>
+      </node>
+      <node id="Veracruzana" label="Veracruzana">
+        <attvalues>
+          <attvalue for="0" value="Standalone" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="65" />
+          <attvalue for="3" value="Piece" />
+        </attvalues>
+      </node>
+      <node id="La Bamba" label="La Bamba">
+        <attvalues>
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="15" />
+          <attvalue for="3" value="Dance" />
+          <attvalue for="0" value="Dance" />
+        </attvalues>
+      </node>
+      <node id="Caribbean Rhapsody" label="Caribbean Rhapsody">
+        <attvalues>
+          <attvalue for="1" value="A Caribbean Rhapsody; Rapsodia Caribe; Rhapsodie Caraïbe" />
+          <attvalue for="2" value="20" />
+          <attvalue for="3" value="Show" />
+          <attvalue for="0" value="Show" />
+        </attvalues>
+      </node>
+      <node id="Tropical Carnival" label="Tropical Carnival">
+        <attvalues>
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="Show" />
+          <attvalue for="0" value="Show" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Americana" target="Caribbean Rhapsody" id="0" weight="1">
+        <attvalues>
+          <attvalue for="4" value="Container" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Americana" target="Tropical Carnival" id="1" weight="1">
+        <attvalues>
+          <attvalue for="4" value="Container" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Veracruzana" target="Americana" id="2" weight="1">
+        <attvalues>
+          <attvalue for="4" value="Standalone" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Veracruzana" target="Caribbean Rhapsody" id="3" weight="1">
+        <attvalues>
+          <attvalue for="4" value="Standalone" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Veracruzana" target="Tropical Carnival" id="4" weight="1">
+        <attvalues>
+          <attvalue for="4" value="Standalone" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="La Bamba" target="Veracruzana" id="5" weight="10">
+        <attvalues>
+          <attvalue for="4" value="Dance" />
+          <attvalue for="5" value="10" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

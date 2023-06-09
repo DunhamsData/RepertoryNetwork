@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 266px;
+    max-width: 266px;
+    min-height: 1400px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 0 15px 0 0;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.optional {
+    margin-left: 20px;
+}

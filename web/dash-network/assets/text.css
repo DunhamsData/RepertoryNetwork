@@ -1,0 +1,105 @@
+#info .title {
+    color: #333;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    line-height: normal;
+    text-align: none;
+    font-size: none;
+    margin: none;
+}
+#info .title {
+    font-size: 24px;
+    text-align: center;
+}
+
+#info .description {
+    color: #333;
+    font-family: "Helvetica", serif;
+    font-weight: normal;
+    line-height: normal;
+    text-align: justify;
+    font-size: none;
+    margin: none;
+}
+#info .description {
+    font-size: 12px;
+    margin: 10px 20px 10px 20px;
+}
+
+#sidebar {
+    background-color: #eee;
+}
+#sidebar {
+}
+
+#sidebar .content {
+    margin: 2px 0 0 0;
+}
+#sidebar .content {
+}
+
+#sidebar .item {
+    color: #333;
+    font-family: "Helvetica", serif;
+    font-weight: normal;
+    line-height: normal;
+    text-align: none;
+    font-size: none;
+    margin: none;
+}
+#sidebar .item {
+    font-size: 12px;
+    margin: 8px 0 0 0;
+}
+
+#sidebar .title {
+    color: #333;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    line-height: normal;
+    text-align: none;
+    font-size: none;
+    margin: none;
+}
+#sidebar .title {
+    font-size: 16px;
+    margin: 0 0 12px 0;
+}
+
+.mylegend {
+}
+.mylegend {
+}
+
+.mylabel {
+}
+.mylabel {
+}
+
+.mytooltip {
+}
+.mytooltip {
+}
+
+a {
+    transition: all 0.3s;
+    text-decoration: none;
+    color: #337ab7;
+}
+a {
+}
+a:hover {
+    color: #0b528f;
+}
+a:hover {
+}
+
+body {
+    margin: 4px 0 8px 0;
+}
+body {
+}
+
+a.link-connections.selected {
+    font-weight: bold;
+}

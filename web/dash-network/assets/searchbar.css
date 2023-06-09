@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    background-color: white;
+    scroll-behavior: smooth;
+}
+
+/* Search bar */
+
+#searchInput {
+  background-image: url('searchicon2.png') !important; /* Add a search icon to input */
+  background-position: 5px 5px !important; /* Position the search icon */
+  background-repeat: no-repeat !important; /* Do not repeat the icon image */
+  background-size: 16px 16px !important;
+  width: 204px; /* Full-width */
+  height: 27px;
+  font-size: 12px !important; /* Increase font-size */
+  padding: 5px 30px 5px 30px !important; /* Add some padding */
+  border: 1px solid #ddd !important; /* Add a grey border */
+  margin-bottom: 12px !important; /* Add some space below the input */
+  margin-top: 10px !important; /* Add some space below the input */
+  border-radius: 20px !important;
+  z-index: 5 !important;
+}
+
+#searchCloseButton {
+  background-image: url('closeicon2.png') !important; /* Add a search icon to input */
+  background-position: 0 0 !important; /* Position the search icon */
+  background-repeat: no-repeat !important; /* Do not repeat the icon image */
+  background-size: 20px 20px !important;
+  width: 20px !important; /* Full-width */
+  height: 20px !important;
+  color: #bfbfbf !important;
+  top: 13px !important;
+  right: 5px !important;
+  position: absolute !important;
+  opacity: 0.9 !important;
+  outline: none !important;
+  z-index: 10 !important;
+}
+
+.searchResults {
+  padding: 10px;
+  border-radius: 5px;
+  min-width: 246px;
+  max-width: 246px;
+}
+.searchResultsContainer {
+  outline: none !important;
+  font-size:12px;
+  line-height: 100%;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+#searchUL {
+  /* Remove default list styling */
+  list-style-type: none !important;
+  padding: 0 !important;
+  margin: 10px 0 0 0 !important;
+  line-height: 0.8em !important;
+}
+
+#searchUL li {
+/*  border: 1px solid #ddd !important; /* Add a border to all links */
+  margin-top: -5px !important; /* Prevent double borders */
+/*  background-color: #f6f6f6 !important; /* Grey background color */
+/*  padding: 8px !important; /* Add some padding */
+/*  text-decoration: none !important; /* Remove default text underline */
+  font-size: 12px !important; /* Increase the font-size */
+/*  color: black !important; /* Add a black text color */
+/*  display: block !important; /* Make it into a block element to fill the whole list */
+  cursor: pointer;
+  color: #1EAEDB;
+}
+
+#searchUL li:hover:not(.header) {
+/*  background-color: #eee !important; /* Add a hover effect to all links, except for headers */
+/*  color: #d62728 !important;*/
+}
