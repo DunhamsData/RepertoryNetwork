@@ -499,7 +499,7 @@ Notebooks and execution order:
 Source code: https://github.com/DunhamsData/RepertoryNetwork/tree/master/web
 
 ## APPENDIX C. Dependencies
-- [Python](https://www.python.org/)
+- [Python](https://www.python.org/) (required Python >=3.9)
 - [dash_network](https://github.com/plotly/dash-network)
 - [Dash](https://dash.plotly.com/)
 - [jQuery](https://jquery.com/)
